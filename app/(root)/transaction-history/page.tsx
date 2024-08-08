@@ -59,15 +59,15 @@ const TransactionHistory = async ({
         </div>
 
         <section className="flex w-full flex-col gap-6">
-          <TransactionsTable transactions={account?.transactions} />
-          {/* {totalPages > 1 && (
+          <TransactionsTable transactions={currentTransaction} />
+          {totalPages > 1 && (
             <div className="my-4 w-full">
               <Pagination
                 totalPages={totalPages}
                 page={currentPage}
               ></Pagination>
             </div>
-          )} */}
+          )}
         </section>
       </div>
     </div>

@@ -109,12 +109,14 @@ const AuthForm = ({ type }: { type: string }) => {
                     <CustomInput
                       control={form.control}
                       name="firstName"
+                      type="text"
                       label="First Name"
                       placeholder="Enter your first name"
                     />
                     <CustomInput
                       control={form.control}
                       name="lastName"
+                      type="text"
                       label="Last Name"
                       placeholder="Enter your last name"
                     />
@@ -122,12 +124,14 @@ const AuthForm = ({ type }: { type: string }) => {
                   <CustomInput
                     control={form.control}
                     name="address1"
+                    type="text"
                     label="Address"
                     placeholder="Enter your specific address"
                   />
                   <CustomInput
                     control={form.control}
                     name="city"
+                    type="text"
                     label="City"
                     placeholder="Example: "
                   />
@@ -135,12 +139,14 @@ const AuthForm = ({ type }: { type: string }) => {
                     <CustomInput
                       control={form.control}
                       name="state"
+                      type="text"
                       label="State"
                       placeholder="Example: NY"
                     />
                     <CustomInput
                       control={form.control}
                       name="postalCode"
+                      type="text"
                       label="Postal Code"
                       placeholder="Example: 11101"
                     />
@@ -149,12 +155,14 @@ const AuthForm = ({ type }: { type: string }) => {
                     <CustomInput
                       control={form.control}
                       name="dateOfBirth"
+                      type="text"
                       label="Date of birth"
                       placeholder="YYYY-MM-DD"
                     />
                     <CustomInput
                       control={form.control}
                       name="ssn"
+                      type="text"
                       label="SSN"
                       placeholder="Example: 1234"
                     />
@@ -164,12 +172,14 @@ const AuthForm = ({ type }: { type: string }) => {
               <CustomInput
                 control={form.control}
                 name="email"
+                type="text"
                 label="Email"
                 placeholder="Enter your email"
               />
               <CustomInput
                 control={form.control}
                 name="password"
+                type="password"
                 label="Password"
                 placeholder="Enter your password"
               />
